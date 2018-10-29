@@ -105,6 +105,17 @@
 		height: 20px;
 		background: #bbb;
 	}
+	/*index*/
+	.saleindex {
+		display: flex;
+		justify-content: space-around;
+	}
+	.saleitem div {
+		font-size: 20px;
+		text-align: center;
+		text-decoration: none;
+		color: black;
+	}
 	/*sale*/
 	.LaptopimgHP {
 	}
