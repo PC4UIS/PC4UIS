@@ -92,7 +92,14 @@
 		grid-template-columns: 1fr 1fr;
 	}
 	/*laptopimg*/
-	.Laptopimg {
-		height: 150px;
-		width: 150px;
+	.LaptopimgHP {
+	}
+
+	.hplaptop {
+		display: inline-grid;
+	}
+	footer {
+		border-top-style: solid;
+		padding-top: 50px;
+		border-top-width: 1px;
 	}
