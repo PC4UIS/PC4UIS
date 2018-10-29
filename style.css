@@ -1,10 +1,12 @@
 /* #B80C09 #0B4F6C #FFFBFC #01BAEF #040F16 */
+	html {
+	}
+
 	body {
 		width: 100%;
 	}
 	main {
 		margin-top: 105px;
-		margin-left: 20px;
 	}
 
 	.container {
@@ -104,7 +106,7 @@
 		font-size: 30px;
 		padding-top: 10px;
 		color: black;
-		font-style: underline;
+		text-decoration: none;
 	}
 
 	footer {
@@ -122,9 +124,23 @@
 		background: #B80C09;
 	}
 
+	.pricebox {
+		display: flex;
+	}
+
+	.strikethrough {
+		margin-left: 240px;
+		font-size: 20px;
+		text-decoration: line-through;
+	}
+
 	.price {
 		font-size: 60px;
-		padding-left: 250px;
-		margin-right: 500px;
+		margin-left: 0px;
 		background: #0B4F6C;
+		display: inline-block;
+	}
+
+	.laptopflex {
+		
 	}
