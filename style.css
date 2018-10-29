@@ -144,3 +144,8 @@
 	.laptopflex {
 		
 	}
+
+	.saleflex {
+		display: flex;
+		justify-content: space-around;
+	}
