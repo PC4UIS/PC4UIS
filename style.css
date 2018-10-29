@@ -147,6 +147,15 @@
 		background: #0B4F6C;
 		display: inline-block;
 	}
+	.rechtslaptop {
+		display: flex;
+	}
+
+	.flexx {
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+	}
 
 	.saleflex {
 		display: flex;
