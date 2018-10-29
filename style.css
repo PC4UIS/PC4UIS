@@ -93,6 +93,12 @@
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 	}
+
+	footer {
+		border-top-style: solid;
+		border-top-width: 1px;
+		margin-top: 10px
+	}
 	/*sale*/
 	.LaptopimgHP {
 	}
@@ -116,12 +122,6 @@
 		text-decoration: none;
 	}
 
-	footer {
-		border-top-style: solid;
-		border-top-width: 1px;
-		margin-top: 10px
-	}
-
 	.hpbutton {
 		width: 300px;
 		margin-top: 10px;
@@ -133,17 +133,18 @@
 
 	.pricebox {
 		display: flex;
+		justify-content: flex-start;
 	}
 
 	.strikethrough {
 		margin-left: 240px;
-		font-size: 20px;
+		font-size: 30px;
 		text-decoration: line-through;
 	}
 
 	.price {
 		font-size: 60px;
-		margin-left: 0px;
+		margin-left: 0	px;
 		background: #0B4F6C;
 		display: inline-block;
 	}
@@ -162,6 +163,10 @@
 		justify-content: space-around;
 	}
 
-	.laptop2img {
-		
+	.procentsale {
+		padding: 2px;
+		background: #B80C09;
+		display: inline-table;
+		color: #FFFBFC;
+		font-size: 20px;
 	}
