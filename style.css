@@ -3,6 +3,9 @@
 		width: 100%;
 		margin: 0;
 	}
+	main {
+		margin-top: 105px;
+	}
 
 	.container {
 		margin: 0 auto;
