@@ -1,10 +1,10 @@
 /* #B80C09 #0B4F6C #FFFBFC #01BAEF #040F16 */
 	body {
 		width: 100%;
-		margin: 0;
 	}
 	main {
 		margin-top: 105px;
+		margin-left: 20px;
 	}
 
 	.container {
@@ -91,15 +91,25 @@
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 	}
-	/*laptopimg*/
+	/*sale*/
 	.LaptopimgHP {
 	}
 
 	.hplaptop {
-		display: inline-grid;
+		display: flex;
+		align-content: space-between;
 	}
 	footer {
 		border-top-style: solid;
-		padding-top: 50px;
 		border-top-width: 1px;
 	}
+
+	.hpbutton {
+		width: 300px;
+		margin-top: 10px;
+		margin-left: 20px;
+		height: 40px;
+		border-radius: 10px;
+		background: #B80C09;
+	}
+
