@@ -103,6 +103,8 @@
 	.hplaptop a {
 		font-size: 30px;
 		padding-top: 10px;
+		color: black;
+		font-style: underline;
 	}
 
 	footer {
@@ -122,5 +124,7 @@
 
 	.price {
 		font-size: 60px;
-		margin-left: 250px
+		padding-left: 250px;
+		margin-right: 500px;
+		background: #0B4F6C;
 	}
