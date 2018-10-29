@@ -91,3 +91,8 @@
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 	}
+	/*laptopimg*/
+	.Laptopimg {
+		height: 150px;
+		width: 150px;
+	}
