@@ -97,7 +97,9 @@
 	footer {
 		border-top-style: solid;
 		border-top-width: 1px;
-		margin-top: 10px
+		margin-top: 10px;
+		background: #bbb;
+		position: absolute;
 	}
 	/*sale*/
 	.LaptopimgHP {
@@ -148,9 +150,6 @@
 		background: #0B4F6C;
 		display: inline-block;
 	}
-	.rechtslaptop {
-		display: flex;
-	}
 
 	.flexx {
 		display: flex;
@@ -169,4 +168,9 @@
 		display: inline-table;
 		color: #FFFBFC;
 		font-size: 20px;
+	}
+
+	.shoppingcart {
+		width: 10px;
+		height: 10px;
 	}
