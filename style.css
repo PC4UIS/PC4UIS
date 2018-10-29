@@ -124,3 +124,12 @@
 		font-size: 60px;
 		margin-left: 250px
 	}
+	.rechtslaptop {
+		display: flex;
+	}
+
+	.flexx {
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+	}
